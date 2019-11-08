@@ -1,0 +1,24 @@
+
+.text {
+    display: inline-block;
+    margin-left: 16px;
+    text-overflow: ellipsis;
+    max-width: calc(100vw - 124px);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    margin: 20px;
+    padding: 8px;
+}
+
+.daily {
+    background-color: #fff7a7;
+}
+
+.button {
+    margin-top: 16px;
+    width: 100%;
+}

@@ -1,0 +1,32 @@
+.content {
+    min-height: calc(100vh - 180px);
+    padding: 20px;
+}
+
+.action-bar > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.event {
+    display: flex;
+    border-radius: 6px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: linear-gradient(to right, #648cd7, #4e63b7);
+}
+
+.event-text {
+    color: white;
+}
+
+.challenge {
+    text-align: center;
+    padding: 16px;
+}
+
+.event-logo {
+    width: 64px;
+    margin-right: 32px;
+}

@@ -1,0 +1,16 @@
+
+
+.card {
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 8px;
+}
+
+.text {
+    margin-left: 8px;
+}
+
+.date {
+    margin-right: 8px;
+}

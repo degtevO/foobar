@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+}
+
+.title {
+    flex: 1;
+}
+
+.button {
+    flex: 1;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 42px;
+}

@@ -1,0 +1,48 @@
+.content {
+    min-height: 100vh;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.greyBlock {
+    background-color:  #E1E4EC;
+    min-height: 340px;
+    max-height: 540px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    color: #FF5A00;
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+.propmoBlock {
+    border-radius: 5px;
+    position: absolute;
+    left: calc(50% - 170px);
+    width: 330px;
+    height: 465px;
+    background: linear-gradient(to right, #648cd7, #4e63b7);
+    padding-top: 40px;
+    text-align: center;
+    box-shadow: 0px 14px 25px 0 rgba(63, 145, 247, 0.7);
+}
+
+.introText {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 0.7em;
+
+}
+
+.skip, .skip:hover, .skip:visited {
+    display: block;
+    margin-top: 15px;
+    color: white;
+    font-size: 18px;
+}
